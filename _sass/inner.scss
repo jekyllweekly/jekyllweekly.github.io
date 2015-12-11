@@ -1,0 +1,260 @@
+/* Entry Content
+-------------------------------------------------- */
+.entry-header,
+.archive-description,
+.taxonomy-description,
+.error404 .entry-title {
+  padding: 0 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.entry-title,
+.archive-title {
+  font-weight: 700;
+}
+@media (min-width: 1000px) {
+  .entry-title,
+  .archive-title  {
+    line-height: 1.2;
+    margin-bottom: 30px;
+  }
+}
+
+.entry-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.entry-title a:hover {
+	color: #0A86BF;
+}
+
+.entry-header .entry-meta {
+  color: #B0B0B0;
+  font-size: 25px;
+  font-family: Bitter, Georgia, serif;
+}
+
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content p,
+.entry-content ul,
+.entry-content ol,
+.entry-content dl,
+.entry-content .highlight,
+.entry-content .gist,
+.error404 form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  max-width: 760px;
+}
+
+.entry-content ol p {
+  padding: 0;
+}
+
+.entry-content table {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* icons for ebooks */
+.pdf, a[href $=".pdf"],
+.epub, a[href $=".epub"],
+.mobi, a[href $=".mobi"],
+.azw, a[href $=".azw"] {
+  padding-left: 20px;
+  min-height:16px;
+}
+
+.pdf, a[href $=".pdf"] {
+  background: url('/images/document-pdf.png') no-repeat 0 50%;
+}
+
+.epub, a[href $=".epub"] {
+  background: url('/images/document-epub.png') no-repeat 0 50%;
+}
+
+.mobi, .azw, a[href $=".mobi"], a[href $=".azw"] {
+  background: url('images/document-mobi.png') no-repeat 0 50%;
+}
+
+hr {
+  position: relative;
+  margin: 16px 0;
+  margin: 10px 0;
+  height: 5px;
+  border: 0;
+}
+
+hr:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 1px;
+  background: #ddd;
+}
+
+.section-divider {
+  display: block;
+  width: 100px;
+  margin: 55px auto;
+  border-bottom: 2px solid #222;
+}
+
+.divider {
+  position: relative;
+  width: 170px;
+  margin: 16px auto;
+  height: 5px;
+  border: 0;
+}
+
+.divider:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 1px;
+  background: #ddd;
+}
+
+.entry-footer {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@media (min-width: 750px) {
+  .entry-footer {
+    max-width: 760px;
+  }
+}
+
+
+/* Entry Meta
+-------------------------------------------------- */
+.blog .entry-meta,
+.archive .entry-meta {
+  padding-top: 0;
+}
+
+.entry-time, .entry-categories {
+  display: block;
+}
+@media (min-width: 550px) {
+  .entry-time, .entry-categories {
+    display: inline;
+  }
+}
+
+.entry-time {
+  margin-right: 30px;
+}
+
+.entry-time:before {
+  content: '\f073';
+  font-family: 'FontAwesome';
+  margin-right: 8px;
+}
+
+.entry-categories:before {
+  content: '\f07c';
+  font-family: 'FontAwesome';
+  margin-right: 8px;
+}
+
+.entry-categories a {
+  text-transform: capitalize;
+}
+
+/* Alerts
+-------------------------------------------------- */
+.alert {
+  max-width: 720px;
+  margin: 0 auto 20px;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+
+.alert > p + p {
+  margin-top: 5px;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+
+.alert-success .alert-link {
+  color: #2b542c;
+  text-decoration: underline;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+
+.alert-info .alert-link {
+  color: #245269;
+  text-decoration: underline;
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+
+.alert-warning .alert-link {
+  color: #66512c;
+  text-decoration: underline;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+
+.alert-danger .alert-link {
+  color: #843534;
+  text-decoration: underline;
+}

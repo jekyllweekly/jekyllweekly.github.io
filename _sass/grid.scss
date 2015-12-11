@@ -1,0 +1,31 @@
+/* Grid
+-------------------------------------------------- */
+.column {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.one-half,
+.one-third,
+.one-fourth {
+  width: 100%;
+}
+@media (min-width: 550px) {
+  .one-half,
+  .one-fourth {
+    width: 50%;
+  }
+}
+@media (min-width: 750px) {
+  .one-third {
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1000px) {
+  .one-fourth {
+    width: 25%;
+  }
+}

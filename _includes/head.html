@@ -1,0 +1,21 @@
+<head itemscope itemtype="http://schema.org/WebSite">
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="canonical" href="{{ site.url }}{{ page.permalink }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.permalink }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+  <!-- <meta property="og:image" content="{% if page.featured-image %}{{ site.url }}/images/{{ page.featured-image }}{% else %}{{ site.url }}/images/default.jpg{% endif %}"> -->
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="alternate" type="application/rss+xml" title="Jekyll Weekly" href="http://jekyllweekly.com/feed.xml">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+  <link rel="stylesheet" href="{{ site.url }}/css/style.css">
+  <!--[if lt IE 9]>
+  <script src="{{ site.url }}/js/html5shiv.min.js"></script>
+  <script src="{{ site.url }}/js/respond.min.js"></script>
+  <![endif]-->
+</head>

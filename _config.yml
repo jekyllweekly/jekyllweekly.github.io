@@ -1,0 +1,21 @@
+# Site settings
+title: Jekyll Weekly
+description: A free, once-a-week round-up of Jekyll news and articles.
+baseurl: ""
+url: http://jekyllweekly.github.io
+
+# Jekyll configuration
+permalink: /:title/
+markdown: kramdown
+highlighter: pygments
+encoding: utf-8
+sass:
+  sass_dir: _sass
+  # style: compressed
+
+gems:
+  - jekyll-feed
+
+include: ["_pages"]
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "gulpfile.js", "package.json", "_config-dev.yml"]

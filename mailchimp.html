@@ -82,7 +82,7 @@
 			color:#ddd;
 			font-size:10px;
 			line-height:100%;
-			text-align:left;
+			text-align:center;
 		}
 		.preheaderContent div img{
 			height:auto;
@@ -132,16 +132,8 @@
 		.footerContent img{
 			display:inline;
 		}
-		#social{
-			background-color:#FAFAFA;
-			border:1px solid #F5F5F5;
-		}
 		#social div{
 			text-align:center;
-		}
-		#utility{
-			background-color:#FDFDFD;
-			border-top:1px solid #F5F5F5;
 		}
 		#utility div{
 			text-align:center;
@@ -165,7 +157,7 @@
                     <tr>
                       <td valign="top">
                         <div mc:edit="std_preheader_content">
-                          December 25, 2020 | Issue #298 | <a href="*|ARCHIVE|*" target="_blank">View in your browser</a>.
+                          December 25, 2020 &bull; Issue #298 &bull; <a href="*|ARCHIVE|*" target="_blank">View in your browser</a>
                         </div>
                       </td>
                     </tr>
@@ -205,36 +197,31 @@
                         <table border="0" cellpadding="10" cellspacing="0" width="100%">
                           <tr>
                             <td valign="top">
-                              <div mc:edit="std_content00">
-                              <span class="h2">Headlines</span>
-                              <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
-                              website.com<br>
-                              <br>
-							  <a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
-							  superwebsite.com<br>
-							  <br>
+                              <div mc:edit="std_content00"><span class="h2">Headlines</span> <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
+website<br>
+<br>
+<a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
+superwebsite<br>
+&nbsp;
 <div class="h2">Code</div>
-                              <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
-                              website.com<br>
-                              <br>
-							  <a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
-							  superwebsite.com<br>
-							  <br>
-                              <span class="h2">Design</span>
-                                                            <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
-                              website.com<br>
-                              <br>
-							  <a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
-							  superwebsite.com<br>
-							  <br>
-                              <span class="h2">Tutorials</span>
-                                                            <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
-                              website.com<br>
-                              <br>
-							  <a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
-							  superwebsite.com<br>
-							  <br>
-</div>
+<a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
+website<br>
+<br>
+<a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
+superwebsite<br>
+<br>
+<span class="h2">Design</span> <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
+website<br>
+<br>
+<a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
+superwebsite<br>
+<br>
+<span class="h2">Tutorials</span> <a href="#" target="_blank">The greatest use of Jekyll ever seen</a><br>
+website<br>
+<br>
+<a href="#" target="_blank">If you think that first link was great, check out this one</a><br>
+superwebsite<br>
+&nbsp;</div>
                             </td>
                           </tr>
                         </table>
@@ -256,7 +243,8 @@
                     <tr>
                       <td colspan="2" valign="middle" id="social">
                         <div mc:edit="std_social">
-                          &nbsp;<a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FACEBOOK:PROFILEURL|*">friend on Facebook</a> | <a href="*|FORWARD|*">forward to a friend</a>&nbsp;
+                          Like our newsletter?<br>
+                          <a href="*|FORWARD|*">Forward it to your friends.</a>
                         </div>
                       </td>
                     </tr>
@@ -265,21 +253,19 @@
                         <br>
                         <div mc:edit="std_footer">
                           *|IF:LIST|*
-                          <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
-                          <br>
                           <!-- *|IFNOT:ARCHIVE_PAGE|* -->
                           *|LIST:DESCRIPTION|*
                           <br>
-                          <strong>Our mailing address is:</strong>
+                          <br>
+                          <strong>Jekyll Weekly is dispatched from:</strong>
                           <br>
                           *|HTML:LIST_ADDRESS_HTML|*
                           <br>
                           <!-- *|END:IF|* -->
                           *|ELSE:|*
                           <!-- *|IFNOT:ARCHIVE_PAGE|* -->
-                          <em>Copyright &copy; *|CURRENT_YEAR|* *|USER:COMPANY|*, All rights reserved.</em>
                           <br>
-                          <strong>Our mailing address is:</strong>
+                          <strong>Jekyll Weekly is dispatched from:</strong>
                           <br>
                           *|USER:ADDRESS_HTML|*
                           <!-- *|END:IF|* -->
@@ -298,7 +284,7 @@
                     <tr>
                       <td colspan="2" valign="middle" id="utility">
                         <div mc:edit="std_utility">
-                          &nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a><!-- *|IFNOT:ARCHIVE_PAGE|* --> | <a href="*|ARCHIVE|*">view email in browser</a><!-- *|END:IF|* -->&nbsp;
+                          <a href="*|UNSUB|*">unsubscribe from these emails</a>
                         </div>
                       </td>
                     </tr>

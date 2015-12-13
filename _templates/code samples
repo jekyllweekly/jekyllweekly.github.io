@@ -1,0 +1,184 @@
+---
+layout: image
+title: Testing the Code & CSS
+headline: Testing the Code & CSS
+modified: 2014-09-23
+excerpt: This is a test of all the code and CSS I've grabbed from around the web.
+category:
+tags: []
+image: bradonomics-cover.jpg
+teaser:
+---
+
+Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+
+## Blockquotes
+
+> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+
+> <cite>First Lastname, _Great Article Title_</cite>
+
+## Line Breaks
+
+This paragraph should have a hard break here\\
+and another one here,\\
+with a bit more text to test.
+
+## Definition
+
+baselining
+---verb
+: 1. Reducing your expenses as low as possible to increase your runway.
+2. Moving to a less expensive country while you launch your business.
+
+## List Types
+
+### Ordered Lists
+
+1.  Item one
+    1. four spaces before number
+    2. four spaces before number
+2. Item two
+3. Item three
+
+### Unordered Lists
+
+* Item one
+    * four spaces before star
+    * four spaces before star
+* Item two
+* Item three
+
+## Footnotes
+
+Some type of foot note.[^1] A second footnote.[^2]
+
+## Tables
+
+|Header1|Header2|Header3|
+|:------|:-----:|------:|
+|left   |center |right  |
+
+## Code Snippets
+
+Here is some inline code. The class "myClas" can be used like this `<div class="myClass">` to highlight your text.
+
+### Syntax highlighting
+
+#### CSS
+
+{% highlight css %}
+    #container {
+        float: left;  
+        margin: 0 -240px 0 0;  
+        width: 100%;
+    }
+{% endhighlight %}
+
+#### Ruby
+
+{% highlight ruby %}
+    def show
+      puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
+      @widget = Widget(params[:id])
+      respond_to do |format|
+        format.html # show.html.erb
+        format.json { render json: @widget }
+      end
+    end
+{% endhighlight %}
+
+### GitHub Gist
+
+{% gist 8387126 %}
+
+## Notices
+
+### Set a block of text off from the rest.
+
+<div class="notice-warning"><strong>Warning Notice:</strong> <code>.notice-warning</code> Maecenas ornare tortor. Donec sed [tellus eget]() sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.</div>
+
+<div class="notice-danger"><strong>Warning Danger:</strong> <code>.notice-danger</code> Maecenas ornare tortor. [Donec sed tellus]() eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at.</div>
+
+
+## Images with Figure Wrap
+
+
+### One Image
+
+<figure>
+	<img src="http://placehold.it/900x450.gif" alt="alt text">
+	<figcaption>Caption describing this image.</figcaption>
+</figure>
+
+
+### Two Images
+
+<figure class="half">
+	<img src="http://placehold.it/900x450.gif" alt="alt text">
+	<img src="http://placehold.it/900x450.gif" alt="alt text">
+	<figcaption>Caption describing these two images.</figcaption>
+</figure>
+
+
+### Three Images
+
+<figure class="third">
+	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="alt text"></a>
+	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="alt text"></a>
+	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="alt text"></a>
+	<figcaption>Caption describing these three images.</figcaption>
+</figure>
+
+
+## Images
+
+
+### Centered
+
+<img class="centered" src="http://placehold.it/450x350.gif" alt="image">
+
+
+### Align None
+
+<img class="alignnone" src="http://placehold.it/450x350.gif" alt="image">
+
+
+### Align Left
+
+<img class="alignleft" src="http://placehold.it/450x350.gif" alt="image">
+
+
+### Align Right
+
+<img class="alignright" src="http://placehold.it/450x350.gif" alt="image">
+
+
+### Pull Left
+
+<img class="pullleft" src="http://placehold.it/450x350.gif" alt="image">
+
+
+### Pull Right
+
+<img class="pullright" src="http://placehold.it/450x350.gif" alt="image">
+
+
+## Videos
+
+<div class="iframe-embed">
+<iframe src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
+</div>
+
+## Maps
+
+<div class="iframe-embed">
+<iframe src="https://maps.google.com/maps/ms?msid=217434296231376900804.000470de9b04e258bfe3b&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=18.753033,98.934503&amp;spn=0,0&amp;output=embed"> </iframe>
+</div>
+
+<hr>
+
+### Footnotes:
+
+[^1]: Here I've included more information in footnote form.
+[^2]: And here also.

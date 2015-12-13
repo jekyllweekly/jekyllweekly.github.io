@@ -10,6 +10,7 @@
 
 .one-half,
 .one-third,
+.two-thirds,
 .one-fourth {
   width: 100%;
 }
@@ -22,6 +23,11 @@
 @media (min-width: 750px) {
   .one-third {
     width: 33.33333333%;
+  }
+}
+@media (min-width: 750px) {
+  .two-thirds {
+    width: 66.66666666%;
   }
 }
 @media (min-width: 1000px) {

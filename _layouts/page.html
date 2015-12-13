@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="page{% if page.featured-image %} has-post-thumbnail{% endif %} entry" itemscope itemtype="http://schema.org/CreativeWork">
+
+<header class="entry-header">
+  <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+  {% if page.sub-heading %}<p class="entry-meta">{{ page.sub-heading }}</p>{% endif %}
+</header>
+
+<div class="entry-content" itemprop="text">
+  {{ content }}
+</div>
+
+</article>

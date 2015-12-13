@@ -1,9 +1,8 @@
 - title: Home
   url: /
 - title: What is Jekyll
-  url: #
+  url: /jekyll/
 - title: Archives
-  url: #
+  url: /archives/
 - title: RSS
-  url: #
-
+  url: /feed/

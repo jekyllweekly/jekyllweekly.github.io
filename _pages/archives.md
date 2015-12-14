@@ -6,5 +6,4 @@ featured-image:
 og-image:
 permalink: /archives/
 ---
-
-We just got started. Give us a minute ... sheesh.
+<script language="javascript" src="http://us12.campaign-archive1.com/generate-js/?u=f7b10fb98bc28907d65a32ec1&fid=1105&show=10" type="text/javascript"></script>

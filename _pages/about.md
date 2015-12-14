@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Colophon
-description: How Jekyll Weekly was made.
+title: About Jekyll Weekly
+description: How and why Jekyll Weekly was made.
 featured-image:
 og-image:
-permalink: /colophon/
+permalink: /about/
 ---
 
-This blog is hosted on GitHub Pages and built using Jekyll (what were you expecting?). Since the newsletter is focused on Jekyll we thought keeping the design the same as the [main Jekyll site](http://jekyllrb.com/) would give some cohesion. And per the license in their footer, we thought it OK to do so.
+This site is hosted on GitHub Pages and built using Jekyll (what were you expecting?). Since the newsletter is focused on Jekyll we thought keeping the design the same as the [main Jekyll site](http://jekyllrb.com/) would give some cohesion. And per the license in their footer, we thought it OK to do so.
 
 As for the newsletter itself, we're using MailChimp for management. You can read our [spam policy here]({{ site.url }}/spam/) and [MailChimp's Acceptable Use Policy here](http://mailchimp.com/legal/acceptable_use/).
 

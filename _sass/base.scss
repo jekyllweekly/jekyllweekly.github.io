@@ -105,6 +105,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 
 h1 {
@@ -158,8 +159,6 @@ a {
   color: #fc0;
   text-decoration: none;
   -webkit-transition: all 0.25s;
-     -moz-transition: all 0.25s;
-       -o-transition: all 0.25s;
           transition: all 0.25s;
 }
 
@@ -182,17 +181,11 @@ input[type="button"] {
   background-color: #fc0;
   color: #222;
   border: none;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+  border-radius: 5px;
   text-transform: uppercase;
   text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),0 1px 5px rgba(0,0,0,0.5);
-     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),0 1px 5px rgba(0,0,0,0.5);
-          box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),0 1px 5px rgba(0,0,0,0.5);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),0 1px 5px rgba(0,0,0,0.5);
   -webkit-transition: all 0.25s;
-     -moz-transition: all 0.25s;
-       -o-transition: all 0.25s;
           transition: all 0.25s;
 }
 
@@ -207,9 +200,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  -webkit-box-shadow: inset 0 1px 8px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.1);
-     -moz-box-shadow: inset 0 1px 8px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.1);
-          box-shadow: inset 0 1px 8px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.1);
+  box-shadow: inset 0 1px 8px rgba(0,0,0,0.5),0 1px 0 rgba(255,255,255,0.1);
   outline: none;
 }
 
@@ -217,8 +208,8 @@ input[type="button"]:focus {
 /* Forms
 -------------------------------------------------- */
 input[type="email"] {
-  min-width: 230px;
-  margin-right: 20px;
+  width: 100%;
+  margin-bottom: 20px;
   background-color: transparent;
   border-top: none;
   border-bottom: 2px solid #87ceeb;
@@ -226,7 +217,12 @@ input[type="email"] {
   border-right: none;
   text-align: center;
 }
-
+@media (min-width: 550px) {
+  input[type="email"] {
+    width: 230px;
+    margin-right: 20px;
+  }
+}
 input[type="email"]:focus {
   outline: none;
   color: #f0e68c;

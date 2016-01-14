@@ -12,6 +12,10 @@ A once-a-week round-up of Jekyll news and articles. We're using MailChimp for li
 
 Jekyll Weekly is curated by [Brad West](http://bradonomics.com/), a web developer living in Chiang Mai, Thailand.
 
+## Why Do You Keep Saying "Us" and "We"?
+
+I hope this will turn into a community project and attract other contributors soon.
+
 ## What's Up With The Design?
 
 This site is hosted on GitHub Pages and built using Jekyll (what were you expecting?). Since the newsletter is focused on Jekyll we thought keeping the design the same as the [main Jekyll site](http://jekyllrb.com/) would give some cohesion. And per the license in their footer, we thought it OK to do so.

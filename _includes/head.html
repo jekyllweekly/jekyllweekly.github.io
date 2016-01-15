@@ -8,7 +8,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.permalink }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
-  <!-- <meta property="og:image" content="{% if page.featured-image %}{{ site.url }}/images/{{ page.featured-image }}{% else %}{{ site.url }}/images/default.jpg{% endif %}"> -->
+  <meta property="og:image" content="{% if page.featured-image %}{{ site.url }}/images/{{ page.featured-image }}{% else %}{{ site.url }}/images/default.jpg{% endif %}">
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="alternate" type="application/rss+xml" title="Jekyll Weekly" href="http://jekyllweekly.com/feed.xml">

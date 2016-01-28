@@ -21,6 +21,19 @@
   }
 }
 
+.post .entry-title {
+  margin-bottom: 0;
+}
+
+.blog-teaser h2 {
+  margin-bottom: 0;
+}
+
+.blog-teaser article {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
 .entry-title a {
   text-decoration: none;
   color: #333;
@@ -30,29 +43,32 @@
 	color: #0A86BF;
 }
 
-.entry-header .entry-meta {
-  color: #B0B0B0;
-  font-size: 25px;
-  font-family: Bitter, Georgia, serif;
+// .entry-content h2,
+// .entry-content h3,
+// .entry-content h4,
+// .entry-content h5,
+// .entry-content h6,
+// .entry-content p,
+// .entry-content ul,
+// .entry-content ol,
+// .entry-content dl,
+// .entry-content .highlight,
+// .entry-content .gist,
+// .entry-content .display_archive,
+// .error404 form {
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding: 0 20px;
+//   max-width: 760px;
+// }
+
+.entry-content h2 {
+  margin-top: 20px;
+  border-bottom: 1px solid;
 }
 
-.entry-content h2,
-.entry-content h3,
-.entry-content h4,
-.entry-content h5,
-.entry-content h6,
-.entry-content p,
-.entry-content ul,
-.entry-content ol,
-.entry-content dl,
-.entry-content .highlight,
-.entry-content .gist,
-.entry-content .display_archive,
-.error404 form {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-  max-width: 760px;
+.entry-content h2:first-child {
+  margin-top: 0;
 }
 
 .entry-content ol p {
@@ -63,27 +79,6 @@
   width: 720px;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* icons for ebooks */
-.pdf, a[href $=".pdf"],
-.epub, a[href $=".epub"],
-.mobi, a[href $=".mobi"],
-.azw, a[href $=".azw"] {
-  padding-left: 20px;
-  min-height:16px;
-}
-
-.pdf, a[href $=".pdf"] {
-  background: url('/images/document-pdf.png') no-repeat 0 50%;
-}
-
-.epub, a[href $=".epub"] {
-  background: url('/images/document-epub.png') no-repeat 0 50%;
-}
-
-.mobi, .azw, a[href $=".mobi"], a[href $=".azw"] {
-  background: url('images/document-mobi.png') no-repeat 0 50%;
 }
 
 hr {
@@ -160,17 +155,17 @@ hr:before {
   margin-right: 30px;
 }
 
-.entry-time:before {
-  content: '\f073';
-  font-family: 'FontAwesome';
-  margin-right: 8px;
-}
-
-.entry-categories:before {
-  content: '\f07c';
-  font-family: 'FontAwesome';
-  margin-right: 8px;
-}
+// .entry-time:before {
+//   content: '\f073';
+//   font-family: 'FontAwesome';
+//   margin-right: 8px;
+// }
+//
+// .entry-categories:before {
+//   content: '\f07c';
+//   font-family: 'FontAwesome';
+//   margin-right: 8px;
+// }
 
 .entry-categories a {
   text-transform: capitalize;

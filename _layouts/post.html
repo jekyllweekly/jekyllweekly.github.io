@@ -1,22 +1,19 @@
 ---
 layout: default
 ---
-<article class="post{% if page.featured-image %} has-post-thumbnail{% endif %} entry">
+<article class="post entry">
 
-<header class="entry-header">
-  <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-  {% if page.sub-heading %}<p class="entry-meta">{{ page.sub-heading }}</p>{% endif %}
-</header>
+  <div class="wrap">
 
-<div class="entry-content" itemprop="text">
-  {{ content }}
-</div>
+    <header class="entry-header">
+      <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+      <p class="entry-meta">{% include post-time.html %}</p>
+    </header>
 
-<footer class="entry-footer">
-<p class="entry-meta">
-  {% include post-time.html %}
-  {% include post-categories.html %}
-</p>
-</footer>
+    <div class="entry-content" itemprop="text">
+      {{ content }}
+    </div>
+
+  </div>
 
 </article>

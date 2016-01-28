@@ -1,0 +1,39 @@
+---
+layout: default
+title: Newsletter Archives
+---
+<div class="wrap">
+
+  {% for post in site.posts %}{% assign loopindex = forloop.index | modulo: 2 %}{% if loopindex == 1 %}
+
+  <div class="row">
+
+    <div class="column one-half blog-teaser">
+      <article class="post entry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="entry-meta">
+          <time class="entry-time" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </p>
+
+      </article>
+    </div>
+
+    {% else %}
+
+    <div class="column one-half blog-teaser">
+      <article class="post entry" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="entry-meta">
+          <time class="entry-time" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+        </p>
+
+      </article>
+    </div>
+
+  </div>
+
+  {% endif %}{% endfor %}
+
+</div>

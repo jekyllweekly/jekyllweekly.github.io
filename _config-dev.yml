@@ -9,10 +9,13 @@ permalink: /:title/
 markdown: kramdown
 highlighter: pygments
 encoding: utf-8
+
+# SASS settings
 sass:
   sass_dir: _sass
   # style: compressed
 
+# Gems
 gems:
   - jekyll-feed
 

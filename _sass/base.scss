@@ -76,6 +76,17 @@ main {
   -webkit-flex: 2 0 auto;
       -ms-flex: 2 0 auto;
           flex: 2 0 auto;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.home main {
+  margin-left: initial;
+  margin-right: initial;
+  padding: 0;
+  max-width: none;
 }
 
 .wrap {

@@ -3,17 +3,13 @@ layout: default
 ---
 <article class="post entry">
 
-  <div class="wrap">
+  <header class="entry-header">
+    <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+    <p class="entry-meta">{% include post-time.html %}</p>
+  </header>
 
-    <header class="entry-header">
-      <h1 class="entry-title" itemprop="headline">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
-      <p class="entry-meta">{% include post-time.html %}</p>
-    </header>
-
-    <div class="entry-content" itemprop="text">
-      {{ content }}
-    </div>
-
+  <div class="entry-content" itemprop="text">
+    {{ content }}
   </div>
 
 </article>

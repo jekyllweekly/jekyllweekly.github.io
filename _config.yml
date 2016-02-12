@@ -7,6 +7,9 @@ url: http://jekyllweekly.com
 # Jekyll configuration
 permalink: /:title/
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 highlighter: rouge
 encoding: utf-8
 

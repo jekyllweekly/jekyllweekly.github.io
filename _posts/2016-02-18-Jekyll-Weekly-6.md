@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jekyll Weekly #5'
+title: 'Jekyll Weekly #6'
 ---
 ## Headlines
 [JekyllConf 2016](//jekyllconf.com/) \\

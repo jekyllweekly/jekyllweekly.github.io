@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jekyll Weekly #6'
+title: 'Jekyll Weekly #5'
 ---
 
 ## Headlines

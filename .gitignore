@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+newsletter.html
 
 # Gulp
 node_modules

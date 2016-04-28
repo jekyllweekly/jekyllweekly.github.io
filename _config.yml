@@ -24,4 +24,4 @@ gems:
 
 include: ["_pages"]
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "gulpfile.js", "package.json"]
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "gulpfile.js", "package.json", "mailchimp.html", "newsletter.html"]

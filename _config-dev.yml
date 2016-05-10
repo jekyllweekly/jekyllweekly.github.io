@@ -12,6 +12,17 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 encoding: utf-8
+defaults:
+- scope:
+    path: ""
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ""
+    type: pages
+  values:
+    layout: page
 
 # SASS settings
 sass:

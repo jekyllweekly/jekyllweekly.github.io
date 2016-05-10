@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Advertise In Our Newsletter
 description: Get your job posting, service or project in front of thousands of web developers.
 featured-image:

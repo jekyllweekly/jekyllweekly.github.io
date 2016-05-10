@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Jekyll Weekly #9'
 ---
 ## Code

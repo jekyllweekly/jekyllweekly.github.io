@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Jekyll Weekly #14'
 ---
 ## Headlines

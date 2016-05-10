@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Wait! You're Not Done Yet!
 description: Don't forget to verify your email address.
 featured-image:

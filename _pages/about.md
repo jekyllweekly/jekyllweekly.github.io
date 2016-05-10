@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About Jekyll Weekly
 description: How and why Jekyll Weekly was made.
 featured-image:

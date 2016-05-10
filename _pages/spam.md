@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Jekyll Weekly Spam Policy
 description:
 featured-image:

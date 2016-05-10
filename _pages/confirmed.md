@@ -1,5 +1,4 @@
 ---
-layout: page
 title: It Was A Struggle, But You Made It
 description: Signed-up at last.
 featured-image:

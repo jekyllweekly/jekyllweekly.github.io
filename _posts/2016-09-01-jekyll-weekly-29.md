@@ -27,8 +27,8 @@ github.com
 github.com
 
 [Microtypography Plugin](https://github.com/borisschapira/jekyll-microtypo) \\
-github
-.com
+github.com
+
 [Stylelint Processor for CSS Blocks in Jekyll Templates](https://github.com/mapbox/stylelint-processor-jekyll) \\
 github.com
 

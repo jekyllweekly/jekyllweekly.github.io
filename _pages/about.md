@@ -23,7 +23,7 @@ This site is hosted on GitHub Pages and built using Jekyll (what were you expect
 
 This site was designed and coded using the following:
 
-[Jekyll v3.0.1](https://github.com/jekyll/jekyll) \\
+[Jekyll ~~v3.0.1~~ v3.3.1](https://github.com/jekyll/jekyll) \\
 [Atom](https://atom.io/) \\
 [Gulp](http://gulpjs.com/) \\
 [Browser Sync](https://browsersync.io/) \\

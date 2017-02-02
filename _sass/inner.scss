@@ -4,20 +4,17 @@
 .archive-description,
 .taxonomy-description,
 .error404 .entry-title {
-  padding: 0 20px;
   margin-top: 20px;
+  padding: 0 20px;
   text-align: center;
 }
 
 .entry-title,
 .archive-title {
   font-weight: 300;
-}
-@media (min-width: 1000px) {
-  .entry-title,
-  .archive-title  {
-    line-height: 1.2;
+  @media (min-width: 1000px) {
     margin-bottom: 30px;
+    line-height: 1.2;
   }
 }
 
@@ -27,15 +24,16 @@
 
 .blog-teaser {
   margin-top: 25px;
-}
 
-.blog-teaser h2 {
-  margin-bottom: 0;
-}
+  h2 {
+    margin-bottom: 0;
+  }
 
-.blog-teaser article {
-  border-bottom: 1px solid #ddd;
-  text-align: center;
+  article {
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+
 }
 
 .entry-title a {
@@ -44,27 +42,8 @@
 }
 
 .entry-title a:hover {
-	color: #0A86BF;
+	color: #0a86bf;
 }
-
-// .entry-content h2,
-// .entry-content h3,
-// .entry-content h4,
-// .entry-content h5,
-// .entry-content h6,
-// .entry-content p,
-// .entry-content ul,
-// .entry-content ol,
-// .entry-content dl,
-// .entry-content .highlight,
-// .entry-content .gist,
-// .entry-content .display_archive,
-// .error404 form {
-//   margin-left: auto;
-//   margin-right: auto;
-//   padding: 0 20px;
-//   max-width: 760px;
-// }
 
 .entry-content h2 {
   margin-top: 20px;
@@ -81,26 +60,27 @@
 
 .entry-content table {
   width: 720px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 hr {
   position: relative;
-  margin: 16px 0;
-  margin: 10px 0;
+  // margin: 16px 0;
   height: 5px;
+  margin: 10px 0;
   border: 0;
-}
 
-hr:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 170px;
-  height: 1px;
-  background: #ddd;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 1px;
+    background: #ddd;
+    content: '';
+  }
+
 }
 
 .section-divider {
@@ -113,27 +93,26 @@ hr:before {
 .divider {
   position: relative;
   width: 170px;
-  margin: 16px auto;
   height: 5px;
+  margin: 16px auto;
   border: 0;
-}
 
-.divider:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 170px;
-  height: 1px;
-  background: #ddd;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 1px;
+    background: #ddd;
+    content: '';
+  }
+
 }
 
 .entry-footer {
   margin: 0 auto;
   padding: 0 20px;
-}
-@media (min-width: 750px) {
-  .entry-footer {
+  @media (min-width: 750px) {
     max-width: 760px;
   }
 }
@@ -146,11 +125,10 @@ hr:before {
   padding-top: 0;
 }
 
-.entry-time, .entry-categories {
+.entry-time,
+.entry-categories {
   display: block;
-}
-@media (min-width: 550px) {
-  .entry-time, .entry-categories {
+  @media (min-width: 550px) {
     display: inline;
   }
 }
@@ -158,18 +136,6 @@ hr:before {
 .entry-time {
   margin-right: 30px;
 }
-
-// .entry-time:before {
-//   content: '\f073';
-//   font-family: 'FontAwesome';
-//   margin-right: 8px;
-// }
-//
-// .entry-categories:before {
-//   content: '\f07c';
-//   font-family: 'FontAwesome';
-//   margin-right: 8px;
-// }
 
 .entry-categories a {
   text-transform: capitalize;
@@ -200,9 +166,9 @@ hr:before {
 }
 
 .alert-success {
+  border-color: #d6e9c6;
   color: #3c763d;
   background-color: #dff0d8;
-  border-color: #d6e9c6;
 }
 
 .alert-success hr {
@@ -210,14 +176,14 @@ hr:before {
 }
 
 .alert-success .alert-link {
-  color: #2b542c;
   text-decoration: underline;
+  color: #2b542c;
 }
 
 .alert-info {
+  border-color: #bce8f1;
   color: #31708f;
   background-color: #d9edf7;
-  border-color: #bce8f1;
 }
 
 .alert-info hr {
@@ -225,14 +191,14 @@ hr:before {
 }
 
 .alert-info .alert-link {
-  color: #245269;
   text-decoration: underline;
+  color: #245269;
 }
 
 .alert-warning {
+  border-color: #faebcc;
   color: #8a6d3b;
   background-color: #fcf8e3;
-  border-color: #faebcc;
 }
 
 .alert-warning hr {
@@ -240,14 +206,14 @@ hr:before {
 }
 
 .alert-warning .alert-link {
-  color: #66512c;
   text-decoration: underline;
+  color: #66512c;
 }
 
 .alert-danger {
+  border-color: #ebccd1;
   color: #a94442;
   background-color: #f2dede;
-  border-color: #ebccd1;
 }
 
 .alert-danger hr {
@@ -255,6 +221,6 @@ hr:before {
 }
 
 .alert-danger .alert-link {
-  color: #843534;
   text-decoration: underline;
+  color: #843534;
 }

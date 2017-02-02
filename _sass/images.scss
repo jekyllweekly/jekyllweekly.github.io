@@ -54,21 +54,15 @@ img.alignright {
 img.pullleft {
 	float: left;
 	margin: 0 24px 26px 0;
-}
-@media (min-width: 1000px) {
-  img.pullleft {
+  @media (min-width: 1000px) {
     float: left;
     margin: 0 24px 24px -64px;
   }
-}
-@media (min-width: 1200px) {
-  img.pullleft {
+  @media (min-width: 1200px) {
     float: left;
     margin: 0 24px 24px -136px;
   }
-}
-@media (min-width: 1600px) {
-  img.pullleft {
+  @media (min-width: 1600px) {
     float: left;
     margin: 0 24px 24px -260px;
   }
@@ -77,27 +71,19 @@ img.pullleft {
 img.pullright {
   display: block;
   margin: 0 auto 24px;
-}
-@media (min-width: 550px) {
-  img.pullright {
+  @media (min-width: 550px) {
     float: right;
     margin: 0 0 24px 24px;
   }
-}
-@media (min-width: 1000px) {
-  img.pullright {
+  @media (min-width: 1000px) {
     float: right;
     margin: 0 -64px 24px 24px;
   }
-}
-@media (min-width: 1200px) {
-  img.pullright {
+  @media (min-width: 1200px) {
     float: right;
     margin: 0 -136px 24px 24px;
   }
-}
-@media (min-width: 1600px) {
-  img.pullright {
+  @media (min-width: 1600px) {
     float: right;
     margin: 0 -260px 24px 24px;
   }
@@ -107,23 +93,24 @@ figure {
   position: relative;
   margin: 0;
   text-align: center;
-}
 
-figure img {
-  margin-bottom: 24px;
-}
+  img {
+    margin-bottom: 24px;
+  }
 
-figure.one-half {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  &.one-half {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 }
 
 @media (min-width: 750px) {
   figure.one-half a,
   figure.one-half > img {
-    float: left;
     display: block;
+    float: left;
     width: 50%;
     padding-right: 15px;
     padding-left: 15px;
@@ -135,15 +122,15 @@ figure.one-half {
 
 figure.one-third {
   max-width: 100%;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 750px) {
   figure.one-third a,
   figure.one-third > img {
-    float: left;
     display: block;
+    float: left;
     width: 33.33333333%;
     padding-right: 15px;
     padding-left: 15px;

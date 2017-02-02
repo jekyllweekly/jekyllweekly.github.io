@@ -3,4 +3,4 @@ url: http://localhost:3000
 
 # SASS settings
 sass:
-  style: full
+  style: expanded

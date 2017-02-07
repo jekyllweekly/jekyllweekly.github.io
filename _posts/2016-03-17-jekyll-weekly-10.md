@@ -13,8 +13,8 @@ github.com
 github.com
 
 ## Tutorials
-[How-To Setup a Jekyll Site on Amazon AWS S3 with CloudFront and SSL](https://rootengineer.net/cloud/2016/jekyll-amazon-aws-s3-cloudfront-with-ssl/) \\
-rootengineer.net
+[How-To Setup a Jekyll Site on Amazon AWS S3 with CloudFront and SSL](https://stackengineer.com/applications/setup-jekyll-s3-cloudfront-ssl.html) \\
+stackengineer.net
 
 [Trailing Slashes, Github Pages, Jekyll 3 & 404s](https://marcgg.com/blog/2016/03/14/github-pages-jekyll/) \\
 marcgg.com

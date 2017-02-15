@@ -9,7 +9,7 @@ A once-a-week round-up of Jekyll news and articles. We're using MailChimp for li
 
 ## Who's Behind This?
 
-Jekyll Weekly is curated by [Brad West](http://bradonomics.com/), a web developer living in Chiang Mai, Thailand.
+Jekyll Weekly is curated by [Brad West](https://bradonomics.com/), a web developer from [Hollywood, Alabama](https://en.wikipedia.org/wiki/Hollywood,_Alabama).
 
 ## Why Do You Keep Saying "Us" and "We"?
 

@@ -14,24 +14,28 @@
 .one-fourth {
   width: 100%;
 }
-@media (min-width: 550px) {
-  .one-half,
-  .one-fourth {
+
+.one-half,
+.one-fourth {
+  @media (min-width: 550px) {
     width: 50%;
   }
 }
-@media (min-width: 750px) {
-  .one-third {
+
+.one-third {
+  @media (min-width: 750px) {
     width: 33.33333333%;
   }
 }
-@media (min-width: 750px) {
-  .two-thirds {
+
+.two-thirds {
+  @media (min-width: 750px) {
     width: 66.66666666%;
   }
 }
-@media (min-width: 1000px) {
-  .one-fourth {
+
+.one-fourth {
+  @media (min-width: 1000px) {
     width: 25%;
   }
 }

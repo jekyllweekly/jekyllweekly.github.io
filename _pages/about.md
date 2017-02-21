@@ -5,7 +5,8 @@ featured-image:
 og-image:
 permalink: /about/
 ---
-A once-a-week round-up of Jekyll news and articles. We're using MailChimp for list management. You can read our [spam policy here]({{ site.url }}/spam/) and [MailChimp's Acceptable Use Policy here](http://mailchimp.com/legal/acceptable_use/). SPAM sucks and we promise you won't get any as a result of subscribing to our newsletter.
+
+A (semi)weekly round-up of Jekyll news and articles. We're using MailChimp for list management. You can read our [spam policy here]({{ site.url }}/spam/) and [MailChimp's Acceptable Use Policy here](http://mailchimp.com/legal/acceptable_use/). SPAM sucks and we promise you won't get any as a result of subscribing to our newsletter.
 
 ## Who's Behind This?
 

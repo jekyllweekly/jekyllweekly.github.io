@@ -28,4 +28,4 @@ This site was designed and coded using the following:
 [Atom](https://atom.io/) \\
 [Gulp](http://gulpjs.com/) \\
 [Browser Sync](https://browsersync.io/) \\
-[GitHub](https://github.com/) ([repo](https://github.com/jekyllweekly/jekyllweekly.github.io))
+[GitHub](https://github.com/) ([repo](https://github.com/jekyllweekly/jekyllweekly.com))

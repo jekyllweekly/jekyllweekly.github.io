@@ -10,7 +10,7 @@ jekyllrb.com
 ## Code
 
 [Jekyll GhDeploy Plugin](https://github.com/nickgarlis/jekyll-ghdeploy) \\
-github
+github.com
 
 [jeql - A GraphQL Plugin](https://github.com/Crunch09/jeql) \\
 github.com

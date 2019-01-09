@@ -48,6 +48,7 @@
   }
 
   .box {
+    width: 100%;
     max-width: 470px;
     margin: -30px auto;
     padding: 60px 50px;
@@ -61,6 +62,14 @@
       float: right;
       margin: -30px 20px;
     }
+
+    p {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      transform: unset;
+    }
+
   }
 
 }

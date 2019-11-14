@@ -24,7 +24,6 @@ This site is hosted on GitHub Pages and built with Jekyll (what were you expecti
 
 This site was designed and coded using the following:
 
-[Jekyll ~~v3.0.1~~ v3.3.1](https://github.com/jekyll/jekyll) \\
+[Jekyll](https://jekyllrb.com/) \\
 [Atom](https://atom.io/) \\
-[Gulp](http://gulpjs.com/) \\
-[GitHub Pages](https://pages.github.com/) ([repo](https://github.com/jekyllweekly/jekyllweekly.com))
+[GitHub Pages](https://pages.github.com/) ([repo](https://github.com/jekyllweekly/jekyllweekly.github.io))
